@@ -6361,7 +6361,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -3609715306538177798, guid: 97c203ece9cb62d4aa2f8898a2ecb519, type: 2}
   m_audioClip: {fileID: 8300000, guid: fa43cfd602c4fec48be94e48855ff873, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.7
+  m_Volume: 0.55
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6405,7 +6405,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -11799,7 +11799,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1961822040}
-  - component: {fileID: 1961822042}
   - component: {fileID: 1961822041}
   m_Layer: 0
   m_Name: ReverbZone
@@ -11816,7 +11815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961822039}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 2.73, z: 10.33}
+  m_LocalPosition: {x: -0, y: 2.73, z: 11.92}
   m_LocalScale: {x: 23.123, y: 5.7557, z: 8.5378}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11831,8 +11830,8 @@ AudioReverbZone:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961822039}
   m_Enabled: 1
-  m_MinDistance: 3
-  m_MaxDistance: 10
+  m_MinDistance: 1
+  m_MaxDistance: 50
   m_ReverbPreset: 3
   m_Room: -1000
   m_RoomHF: -454
@@ -11847,27 +11846,6 @@ AudioReverbZone:
   m_Density: 100
   m_LFReference: 250
   m_RoomLF: 0
---- !u!65 &1961822042
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961822039}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1968287295
 PrefabInstance:
   m_ObjectHideFlags: 0
